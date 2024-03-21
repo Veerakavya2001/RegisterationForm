@@ -1,0 +1,36 @@
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px; padding-left: 30px;
+    margin-bottom: 50px;
+    
+    /* text-align: center; */
+   
+}
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+.text-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 5rem;
+    
+   
+}
+.table-container {
+    overflow-y: auto;
+    height: 90vh;
+    padding-top: 20px;
+   
+    padding-left: 50px;
+   
+
+}
+.full-container{
+    background-color: #e7f3ff;
+}

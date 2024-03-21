@@ -1,0 +1,33 @@
+.header{
+    /* border: 1px solid ; */
+    padding: 20px 0px;
+    border-radius: 5px;
+    /* background-color: white; */
+    box-shadow:  0px 3px 8px rgba(0, 0, 0, 0.24);
+    width: 100vw;
+   
+    background-color: #ebfcfc;
+}
+.header-container{
+   display: flex;
+   justify-content: space-evenly;
+    text-align: center;
+}
+.button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #00ccd0;
+    box-shadow: 0 0.3rem 0 0 #007779;
+    color: white;
+    cursor: pointer;
+}
+.input-filed{
+   border-radius: 10px;
+   border: none;
+   outline: none;
+   width:30%;
+}
+.active{
+    background: #00978e;
+}
